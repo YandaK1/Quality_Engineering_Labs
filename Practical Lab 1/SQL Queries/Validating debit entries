@@ -1,0 +1,5 @@
+--//Ensure a withdrawal transaction record was created.
+
+SELECT TransactionID, Amount, TransactionType, Status
+FROM Transactions
+WHERE TransactionID = 6739;

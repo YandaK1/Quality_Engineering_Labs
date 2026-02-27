@@ -1,0 +1,8 @@
+-- //Ensure a withdrawal transaction record was created.
+
+SELECT *
+FROM Transactions
+WHERE UserID = 002
+AND TransactionType = 'CASH_WITHDRAWAL'
+ORDER BY Timestamp DESC;
+ 

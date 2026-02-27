@@ -1,0 +1,5 @@
+--// After successful withdrawal, failed attempts should reset.
+
+SELECT UserID, FailedAttempts
+FROM PinAttempts
+WHERE UserID = 002;

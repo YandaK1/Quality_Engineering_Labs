@@ -1,0 +1,5 @@
+--//Ensure transaction timestamp is recent
+
+SELECT TransactionID, Timestamp
+FROM Transactions
+WHERE TransactionID = 6739;

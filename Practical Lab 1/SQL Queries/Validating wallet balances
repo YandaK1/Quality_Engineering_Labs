@@ -1,0 +1,5 @@
+--//Confirm balance reduced correctly.
+
+SELECT UserID, Balance
+FROM Wallets
+WHERE UserID = 002;

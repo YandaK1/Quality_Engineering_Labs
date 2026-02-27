@@ -1,0 +1,13 @@
+
+{
+  "userId": 102,
+  "amount": 5.00,
+  "pin": "1234"
+}
+
+
+{
+  "status": "FAILED",
+  "errorCode": "INVALID_AMOUNT",
+  "message": "Amount below minimum withdrawal limit"
+}

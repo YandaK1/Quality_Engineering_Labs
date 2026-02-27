@@ -1,0 +1,17 @@
+
+
+{
+  "userId": 102,
+  "amount": 500.00,
+  "pin": "1234"
+}
+
+
+{
+  "status": "SUCCESS",
+  "transactionId": "TXN5589",
+  "amount": 500.00,
+  "remainingBalance": 500.00,
+  "currency": "ZAR",
+  "timestamp": "2026-02-13T10:30:00Z"
+}

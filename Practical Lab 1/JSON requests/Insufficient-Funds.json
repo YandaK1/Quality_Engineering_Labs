@@ -1,0 +1,14 @@
+
+{
+  "userId": 102,
+  "amount": 2000.00,
+  "pin": "1234"
+}
+
+
+{
+  "status": "FAILED",
+  "errorCode": "INSUFFICIENT_FUNDS",
+  "message": "Wallet balance too low",
+  "availableBalance": 500.00
+}

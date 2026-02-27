@@ -1,0 +1,10 @@
+--//Balance must equal total credits minus debits.
+
+SELECT 
+    W.UserID,
+    W.Balance,
+    SUM(CASE WHEN L.EntryType = 'DEBIT' THEN L.Amount ELSE 0 END) AS TotalDebits
+FROM Wallets W
+JOIN Ledger L ON W.UserID = L.UserID
+WHERE W.UserID = 102
+GROUP BY W.UserID, W.Balance;

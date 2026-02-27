@@ -1,0 +1,14 @@
+ 
+{
+  "userId": 102,
+  "amount": 500.00,
+  "pin": "9999"
+}
+
+
+{
+  "status": "FAILED",
+  "errorCode": "INVALID_PIN",
+  "message": "Incorrect PIN",
+  "timestamp": "2026-02-13T10:35:00Z"
+}
